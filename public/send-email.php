@@ -5,15 +5,15 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Configurações de email
-$emailRemetente = '';
+$emailRemetente = 'jarg1976@gmail.com';
 $senha = '';
-$emailDestinatario = '';
+$emailDestinatario = 'jarg1976@gmail.com';
 
 // Configurações do servidor SMTP do Microsoft 365
 $smtpHost = 'sandbox.smtp.mailtrap.io';
 $smtpPort = 2525; // Porta padrão para TLS
-$smtpUsuario = "";
-$smtpSenha = "";
+$smtpUser = "91669123e08a6d";
+$smtpSenha = "644b26c4b21964";
 $smtpSecure = 'tls'; // ou 'ssl', dependendo das configurações do seu servidor
 
 // Criar uma nova instância do PHPMailer
@@ -25,7 +25,7 @@ $mail->Host = $smtpHost;
 $mail->Port = $smtpPort;
 $mail->SMTPSecure = $smtpSecure;
 $mail->SMTPAuth = true;
-$mail->Username = $smtpUsuario;
+$mail->Username = $smtpUser;
 $mail->Password = $smtpSenha;
 
 // Configurações do email
