@@ -5,7 +5,7 @@ require '../../vendor/autoload.php';
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 // Chave secreta para verificar o token JWT
-$secret_key = "myprivate";
+$secret_key = "mydev";
 
 $headers = getallheaders();
 $authorizationHeader = $headers['Authorization'] ?? '';
